@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.container > div {
+  background-color: #945e5e;
+  border: 1px solid #ccc;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
